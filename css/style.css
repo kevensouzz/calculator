@@ -66,11 +66,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 #copy:hover {
-    cursor: pointer;
     color: var(--white-color);
 }
 
@@ -97,13 +96,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.5s;
     font-size: 3rem;
-}
-
-.button:hover {
-    cursor: pointer;
-    background: var(--background-black-2);
 }
 
 #footer {
