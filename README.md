@@ -1,4 +1,4 @@
-# Uma Calculadora Simples Básica
+# Uma Calculadora Simples e Básica
 
 <div align="center">
 
