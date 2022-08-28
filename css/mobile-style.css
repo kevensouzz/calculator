@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+    #section {
+        height: 500px;
+        width: 500px;
+    }
+
+    #resultado {
+        font-size: 3rem;
+    }
+
+    #copy {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    #section {
+        height: 500px;
+        width: 400px;
+    }
+
+    #resultado {
+        font-size: 2.7rem;
+    }
+
+    #copy {
+        font-size: 2.3rem;
+    }
+
+    .button {
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 425px) {
+    #section {
+        height: 450px;
+        width: 300px;
+    }
+
+    #resultado {
+        font-size: 2.3rem;
+    }
+
+    #copy {
+        font-size: 1.7rem;
+    }
+
+    .button {
+        font-size: 2.3rem;
+    }
+}
