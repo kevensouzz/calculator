@@ -66,10 +66,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#copy i {
     transition: 0.3s;
 }
 
-#copy:hover {
+#copy i:hover {
     color: var(--white-color);
 }
 
