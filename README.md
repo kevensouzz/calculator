@@ -1,4 +1,4 @@
-# Um Cronômetro de Milisegundos à Minutos
+# Uma Calculadora Simples Básica
 
 <div align="center">
 
