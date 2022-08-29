@@ -84,7 +84,7 @@ body {
 }
 
 .row {
-    height: 20%;
+    height: 16%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -100,6 +100,11 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+}
+
+#c,
+#back {
+    width: 50%;
 }
 
 #footer {
@@ -121,4 +126,4 @@ html {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
- }
+}
