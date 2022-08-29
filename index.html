@@ -27,7 +27,7 @@
     <main id="main">
         <section id="section">
             <article id="resultado">
-
+                <h1 id="result"></h1>
                 <div id="copy">
                     <i class="bi bi-clipboard2-fill"></i>
                 </div>
@@ -35,32 +35,32 @@
 
             <article id="buttons">
                 <div class="row">
-                    <div class="button">1</div>
-                    <div class="button">2</div>
-                    <div class="button">3</div>
-                    <div class="button">+</div>
+                    <div class="button" onclick="insert('1')">1</div>
+                    <div class="button" onclick="insert('2')">2</div>
+                    <div class="button" onclick="insert('3')">3</div>
+                    <div class="button" onclick="insert('+')">+</div>
                 </div>
                 <div class="row">
-                    <div class="button">4</div>
-                    <div class="button">5</div>
-                    <div class="button">6</div>
-                    <div class="button">-</div>
+                    <div class="button" onclick="insert('4')">4</div>
+                    <div class="button" onclick="insert('5')">5</div>
+                    <div class="button" onclick="insert('6')">6</div>
+                    <div class="button" onclick="insert('-')">-</div>
                 </div>
                 <div class="row">
-                    <div class="button">7</div>
-                    <div class="button">8</div>
-                    <div class="button">9</div>
-                    <div class="button">x</div>
+                    <div class="button" onclick="insert('7')">7</div>
+                    <div class="button" onclick="insert('8')">8</div>
+                    <div class="button" onclick="insert('9')">9</div>
+                    <div class="button" onclick="insert('*')">x</div>
                 </div>
                 <div class="row">
-                    <div class="button">0</div>
-                    <div class="button">.</div>
-                    <div class="button">÷</div>
-                    <div class="button">=</div>
+                    <div class="button" onclick="insert('0')">0</div>
+                    <div class="button" onclick="insert('.')">.</div>
+                    <div class="button" onclick="insert('/')">÷</div>
+                    <div class="button" onclick="calcular()">=</div>
                 </div>
                 <div class="row">
-                    <div class="button" id="c">C</div>
-                    <div class="button" id="back"><i class="bi bi-arrow-left"></i></div>
+                    <div class="button" id="c" onclick="clean()">C</div>
+                    <div class="button" id="back" onclick="back()"><i class="bi bi-arrow-left"></i></div>
                 </div>
             </article>
         </section>

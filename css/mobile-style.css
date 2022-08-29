@@ -5,10 +5,6 @@
     }
 
     #resultado {
-        font-size: 3rem;
-    }
-
-    #copy {
         font-size: 2.3rem;
     }
 }
@@ -20,11 +16,7 @@
     }
 
     #resultado {
-        font-size: 2.7rem;
-    }
-
-    #copy {
-        font-size: 2.3rem;
+        font-size: 1.9rem;
     }
 
     .button {
@@ -39,11 +31,7 @@
     }
 
     #resultado {
-        font-size: 2.3rem;
-    }
-
-    #copy {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .button {
