@@ -54,27 +54,10 @@ body {
     border-bottom: 1px solid var(--emphasis-color);
     box-shadow: var(--emphasis-color) 0px 0px 3px 1px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     font-size: 2.7rem;
     overflow: hidden;
-}
-
-#copy {
-    min-width: 25%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#copy i {
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-#copy i:hover {
-    color: var(--white-color);
 }
 
 #buttons {
