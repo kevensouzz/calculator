@@ -69,6 +69,7 @@ body {
 
 #copy i {
     transition: 0.3s;
+    cursor: pointer;
 }
 
 #copy i:hover {
